@@ -23,7 +23,7 @@ public class AutomationPrac_Register {
 		   By submitBtn=By.id("SubmitCreate");
 		   
 		   //By gender_Male=By.id("id_gender1");
-		   By gender_Male=By.xpath("//div[@class='radio-inline']//input[@id='id_gender1']");
+		   By gender_Male=By.xpath("//div[@class='radio-inline']//div[@id='uniform-id_gender1']");
 		   By firstName=By.id("customer_firstname");
 		   By lastName=By.id("customer_lastname");
 		   By passWord=By.id("passwd");
