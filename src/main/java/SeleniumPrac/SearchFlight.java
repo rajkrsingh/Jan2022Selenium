@@ -18,8 +18,8 @@ public class SearchFlight {
 		
 	      //OR
 		
-	      //By From= By.xpath("//div[@id='DZ0S']//div[contains(text(),'From?')]");
-		   By From= By.xpath("//*[@id=\"rGdd\"]//div");
+	      By From= By.xpath("//div[@id='DZ0S']//div[contains(text(),'From?')]");
+		   //By From= By.xpath("//*[@id=\"rGdd\"]//div");
      	  By To= By.xpath("//div[@id='l4zk']//div[contains(text(),'To?')]");
 		  By BLR=By.xpath("//div[contains(text(),'BLR')]");
 		  By DEL=By.xpath("//div[contains(text(),'DEL')]");

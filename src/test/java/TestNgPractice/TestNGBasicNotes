@@ -1,0 +1,23 @@
+TestNG:Unit testing frame work
+Open source
+
+1.Eclipse testNG plugin
+2.Add testNG dependency in pom.xml
+
+Note:We require both above two things for writing and executing the test cases
+
+testNG:
+1.maintain the test cases
+2.different annotations
+3.maintain order in terms of priority
+4.Parameterization  - data driver approach	
+5.Assertions
+6.HTML reports
+7.Testing reporting Listeners --Extent,Allure Report
+8.test runners --testng.xml file
+9.parallel testing
+
+//https://github.com/cbeust/testng-eclipse
+
+
+//https://testng.org/testng-eclipse-update-site/6.14.3/
