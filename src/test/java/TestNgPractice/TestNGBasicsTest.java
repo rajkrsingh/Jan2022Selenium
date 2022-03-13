@@ -2,7 +2,7 @@ package TestNgPractice;
 
 import org.testng.annotations.Test;
 
-public class TestNGBasics{
+public class TestNGBasicsTest{
 
 	@Test
 	public void add() {
