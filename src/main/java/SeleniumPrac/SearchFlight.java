@@ -26,6 +26,7 @@ public class SearchFlight {
 		  
 		  //Actions action=new Actions(driver);
 		  Thread.sleep(8000);
+		  System.out.println("why thread.sleep() is used");
 		 
 		  //action.click(driver.findElement(From));
 		  
