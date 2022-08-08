@@ -3,15 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgPractice.GoogleTPageTest">
+      <class name="TestNgPractice.BeforeTestFreshWorksTest">
         <methods>
-          <include name="setUP"/>
-          <include name="getTitle"/>
-          <include name="getURL"/>
-          <include name="tearDown"/>
-          <include name="verifyLogo"/>
+          <include name="closeBrowser"/>
+          <include name="verifyProductMenu"/>
+          <include name="verifyCompanyMenu"/>
+          <include name="verifyPlatformMenu"/>
+          <include name="launchUrl"/>
+          <include name="verifyFooterSocialSection"/>
+          <include name="verifyResourcesMenu"/>
         </methods>
-      </class> <!-- TestNgPractice.GoogleTPageTest -->
+      </class> <!-- TestNgPractice.BeforeTestFreshWorksTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
